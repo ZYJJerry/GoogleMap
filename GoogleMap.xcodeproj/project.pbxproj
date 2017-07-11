@@ -128,7 +128,6 @@
 		C4A01EAC1EF7CCF600AABD52 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4A01EAE1EF7CCF600AABD52 /* NewsTableViewCell.xib */; };
 		C4A01EB11EF7D0D800AABD52 /* JourneyDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4A01EB31EF7D0D800AABD52 /* JourneyDetailViewController.xib */; };
 		C4E833121F147ABC00FBDAA7 /* PwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4E833141F147ABC00FBDAA7 /* PwdViewController.xib */; };
-		C4E833191F14BFF600FBDAA7 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E833181F14BFF600FBDAA7 /* testViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -355,8 +354,6 @@
 		C4A01EB51EF7D0DA00AABD52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/JourneyDetailViewController.strings; sourceTree = "<group>"; };
 		C4E833131F147ABC00FBDAA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PwdViewController.xib; sourceTree = "<group>"; };
 		C4E833161F147AC000FBDAA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/PwdViewController.strings; sourceTree = "<group>"; };
-		C4E833171F14BFF600FBDAA7 /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
-		C4E833181F14BFF600FBDAA7 /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -591,8 +588,6 @@
 				C48FA1D61EE4F7F500247058 /* User */,
 				C48FA1C91EE14F6400247058 /* Left */,
 				C48FA1C81EE14F4F00247058 /* Map */,
-				C4E833171F14BFF600FBDAA7 /* testViewController.h */,
-				C4E833181F14BFF600FBDAA7 /* testViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -1030,7 +1025,6 @@
 				C48FA19F1EE13A3900247058 /* ChineseInclude.m in Sources */,
 				C4A01DCE1EE8EBCA00AABD52 /* SVProgressHUD.m in Sources */,
 				C48FA1B81EE145DE00247058 /* LeftViewController.m in Sources */,
-				C4E833191F14BFF600FBDAA7 /* testViewController.m in Sources */,
 				C4A01E611EF7677A00AABD52 /* NewsTableViewCell.m in Sources */,
 				C48FA1E21EE4FBAA00247058 /* LeftTableViewCell.m in Sources */,
 				C48FA0991EE0FC1300247058 /* main.m in Sources */,
