@@ -30,18 +30,7 @@
 }
 
 
-//hud
-//- (void)initStringHudWith:(NSString *)string{
-//    if (!self.hud) {
-//        self.hud = [[MBProgressHUD alloc]init];
-//    }
-//    [self.view addSubview:self.hud];
-//    self.hud.mode = MBProgressHUDModeText;
-//    self.hud.label.text = string;
-//    self.hud.center = self.view.center;
-//    [self.hud showAnimated:YES];
-//    [self.hud hideAnimated:YES afterDelay:1.5];
-//}
+
 - (void)addNavigationbar{
     // 创建一个导航栏
      self.navBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, 64)];
