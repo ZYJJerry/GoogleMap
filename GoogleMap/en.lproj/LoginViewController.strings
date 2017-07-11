@@ -1,0 +1,21 @@
+
+/* Class = "UITextField"; placeholder = "6-16位数字、字母或字符"; ObjectID = "9ND-ZY-QgB"; */
+"9ND-ZY-QgB.placeholder" = "6-16 digits, letters, or characters";
+
+/* Class = "UILabel"; text = "+86"; ObjectID = "BG9-fz-VEo"; */
+"BG9-fz-VEo.text" = "+86";
+
+/* Class = "UIButton"; normalTitle = "新用户注册"; ObjectID = "c2s-48-m76"; */
+"c2s-48-m76.normalTitle" = "Register";
+
+/* Class = "UITextField"; placeholder = "请输入手机号!"; ObjectID = "dQZ-ko-wJM"; */
+"dQZ-ko-wJM.placeholder" = "Please enter your cell phone number!";
+
+/* Class = "UILabel"; text = "密码"; ObjectID = "g8Z-pa-TR1"; */
+"g8Z-pa-TR1.text" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "gZY-cA-7fK"; */
+"gZY-cA-7fK.normalTitle" = "Login";
+
+/* Class = "UIButton"; normalTitle = "忘记密码?"; ObjectID = "puB-iU-h7O"; */
+"puB-iU-h7O.normalTitle" = "Forgot the password?";

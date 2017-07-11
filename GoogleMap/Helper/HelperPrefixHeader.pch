@@ -1,0 +1,31 @@
+//
+//  HelperPrefixHeader.pch
+//  HelperDemo
+//
+//  Created by Jerry on 16/2/25.
+//  Copyright © 2016年 周玉举 All rights reserved.
+//
+
+#ifndef HelperPrefixHeader_pch
+#define HelperPrefixHeader_pch
+
+#import "Factory.h"
+#import "HelperDefine.h"
+#import "UIView+Addition.h"
+#import "BaseViewController.h"
+//新扩展的头文件
+#import "AFNetworking.h"
+#import "NetInterface.h"
+
+#import "UIImageView+AFNetworking.h"
+
+#endif /* HelperPrefixHeader_pch */
+
+
+
+
+
+
+
+
+

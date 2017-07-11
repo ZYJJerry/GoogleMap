@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "3zN-z5-KsB"; */
+"3zN-z5-KsB.normalTitle" = "Confirm";
+
+/* Class = "UILabel"; text = "女"; ObjectID = "BP4-xl-xZg"; */
+"BP4-xl-xZg.text" = "Female";
+
+/* Class = "UILabel"; text = "男"; ObjectID = "jlW-Zh-bMq"; */
+"jlW-Zh-bMq.text" = "Male";
+
+/* Class = "UILabel"; text = "性别"; ObjectID = "wsu-AR-39D"; */
+"wsu-AR-39D.text" = "Gender";

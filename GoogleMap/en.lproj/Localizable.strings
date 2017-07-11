@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  GoogleMap
+
+  Created by Jerry on 2017/6/19.
+  Copyright © 2017年 周玉举. All rights reserved.
+*/
+"云单车"="Cloud Bike";
+"您也可以在地图中先选中要预约的车辆进行预约"="You can also select a vehicle from the map";
+"您也可以在地图中先选中要解锁的车辆进行解锁"="You can also select a vehicle from the map";
+"现在预约"="Appoint now";
+"现在用车"="Rent now";
+"车号不能为空!"=" The number cannot be empty!";
+"提示"="Tips";
+"是否退出账号?"="Quit?";
+"取消"="Cancel";
+"退出"="Quit";
+"退出账号"="Quit";
+"姓名"="Name";
+"性别"="Gender";
+"男"="Male";
+"女"="Female";
+"电话"="Tel";
+"密码"="Password";
+"手机号不正确!"="Please enter the correct cell phone number!";
+"密码格式不正确!"="Password format error!";
+"发布时间"="Time";
+"车辆编号"="Vehicle NO.";
+"骑行时间"="Time ";
+"骑行费用"="Expenses ";
+"确定对该车解锁?"="Unlock now?";

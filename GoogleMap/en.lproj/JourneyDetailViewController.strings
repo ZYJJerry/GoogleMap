@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "消费金额"; ObjectID = "7d1-jc-12K"; */
+"7d1-jc-12K.text" = "Money";
+
+/* Class = "UILabel"; text = "骑行时间"; ObjectID = "8Cq-U3-SlW"; */
+"8Cq-U3-SlW.text" = "Time";
+
+/* Class = "UILabel"; text = "节约碳量"; ObjectID = "L6y-x8-I8F"; */
+"L6y-x8-I8F.text" = "Carbon";
+
+/* Class = "UILabel"; text = "80001"; ObjectID = "Q0Y-OZ-dwd"; */
+"Q0Y-OZ-dwd.text" = "80001";
+
+/* Class = "UILabel"; text = "0.0"; ObjectID = "Yhl-7k-WrF"; */
+"Yhl-7k-WrF.text" = "0.0";
+
+/* Class = "UILabel"; text = "消耗卡路里"; ObjectID = "gRi-x0-0ls"; */
+"gRi-x0-0ls.text" = "Calorie";

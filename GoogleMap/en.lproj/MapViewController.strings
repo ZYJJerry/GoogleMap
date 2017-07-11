@@ -1,0 +1,45 @@
+
+/* Class = "UIButton"; normalTitle = "现在预约"; ObjectID = "75n-v9-oUg"; */
+"75n-v9-oUg.normalTitle" = "Appoint now";
+
+/* Class = "UIButton"; normalTitle = "解锁"; ObjectID = "8vk-5z-xwo"; */
+"8vk-5z-xwo.normalTitle" = "Unlock";
+
+/* Class = "UILabel"; text = "您即将预约自行车17160,预约时长最多为10分钟,逾期后系统将自动置为空闲状态,计费方式为0.0元/分钟"; ObjectID = "DmG-rb-V0B"; */
+"DmG-rb-V0B.text" = "您即将预约自行车17160,预约时长最多为10分钟,逾期后系统将自动置为空闲状态,计费方式为0.0元/分钟";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ItC-QO-5ka"; */
+"ItC-QO-5ka.text" = "Label";
+
+/* Class = "UILabel"; text = "提示"; ObjectID = "Mud-XH-saZ"; */
+"Mud-XH-saZ.text" = "Tips";
+
+/* Class = "UILabel"; text = "您也可以在地图中先选中要预约的车辆进行预约"; ObjectID = "WTY-Iu-eIM"; */
+"WTY-Iu-eIM.text" = " You can also select a vehicle from the map";
+
+/* Class = "UIButton"; normalTitle = "预约"; ObjectID = "Wg0-5T-4na"; */
+"Wg0-5T-4na.normalTitle" = "Appoint";
+
+/* Class = "UIButton"; normalTitle = "用车"; ObjectID = "Zf2-xT-dCM"; */
+"Zf2-xT-dCM.normalTitle" = "Rent";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "djg-LR-NTx"; */
+"djg-LR-NTx.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "  预约:16484"; ObjectID = "eS5-4B-U21"; */
+"eS5-4B-U21.text" = "  预约:16484";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "klK-ZV-hHK"; */
+"klK-ZV-hHK.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "rcd-zd-0us"; */
+"rcd-zd-0us.normalTitle" = "Cancel";
+
+/* Class = "UITextField"; placeholder = "请输入车牌号"; ObjectID = "tiv-wr-eb4"; */
+"tiv-wr-eb4.placeholder" = "Please enter the license plate number";
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "uzS-tp-K0p"; */
+"uzS-tp-K0p.normalTitle" = "Confirm";
+
+/* Class = "UILabel"; text = "  剩余时间:10分0秒"; ObjectID = "ziV-OA-zNF"; */
+"ziV-OA-zNF.text" = "  剩余时间:10分0秒";

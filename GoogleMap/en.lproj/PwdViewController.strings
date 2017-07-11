@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "原密码"; ObjectID = "C7a-H5-cu7"; */
+"C7a-H5-cu7.text" = "Old Password";
+
+/* Class = "UITextField"; placeholder = "请确认新的密码"; ObjectID = "CG0-1B-Faa"; */
+"CG0-1B-Faa.placeholder" = "Please confirm new password!";
+
+/* Class = "UILabel"; text = "新密码"; ObjectID = "MJ3-hq-ylD"; */
+"MJ3-hq-ylD.text" = "New password";
+
+/* Class = "UITextField"; placeholder = "请输入新密码"; ObjectID = "MYP-Eq-8EY"; */
+"MYP-Eq-8EY.placeholder" = "Please enter new password!";
+
+/* Class = "UITextField"; placeholder = "请输入旧密码"; ObjectID = "hBi-Nn-l4w"; */
+"hBi-Nn-l4w.placeholder" = "Pleasw enter old password!";
+
+/* Class = "UILabel"; text = "确认密码"; ObjectID = "jD2-79-NwS"; */
+"jD2-79-NwS.text" = "Confirm new password";
+
+/* Class = "UIButton"; normalTitle = "sumit"; ObjectID = "pFs-bp-JD5"; */
+"pFs-bp-JD5.normalTitle" = "sumit";

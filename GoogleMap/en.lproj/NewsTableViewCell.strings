@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "标题"; ObjectID = "QA1-ZT-9Pf"; */
+"QA1-ZT-9Pf.text" = "Title";
+
+/* Class = "UILabel"; text = "时间"; ObjectID = "QLU-s1-CWs"; */
+"QLU-s1-CWs.text" = "Time";
+
+/* Class = "UILabel"; text = "发布日期:"; ObjectID = "mm9-vE-BN2"; */
+"mm9-vE-BN2.text" = "Time:";
+
+/* Class = "UILabel"; text = "内容"; ObjectID = "xQa-d4-Aba"; */
+"xQa-d4-Aba.text" = "Content";
