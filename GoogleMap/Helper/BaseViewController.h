@@ -11,7 +11,7 @@
 #import "InternetEngine.h"
 #import "URL.h"
 @interface BaseViewController : UIViewController
-//@property (nonatomic,strong)MBProgressHUD * hud;
+@property (nonatomic,strong)MBProgressHUD * hud;
 @property (nonatomic,strong)MBProgressHUD *intederHud;
 @property (nonatomic,strong)UINavigationBar * navBar;
 @property (nonatomic,strong)UILabel * titleLabel;
