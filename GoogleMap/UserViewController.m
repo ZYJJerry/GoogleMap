@@ -183,6 +183,7 @@
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
     //     向下拽了多少距离
     CGFloat down = -scrollView.contentOffset.y-(ScreenWidth * 0.5);
+    NSLog(@"%f",down);
     if (down <=0 || down >=64 ) {
         return;
     }

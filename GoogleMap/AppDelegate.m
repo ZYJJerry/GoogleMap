@@ -13,7 +13,7 @@
 #import "TabBarViewController.h"
 #import "LoginViewController.h"
 #import <GoogleMaps/GoogleMaps.h>
-
+#import <PayPalMobile.h>
 @interface AppDelegate ()
 
 @end
@@ -41,6 +41,8 @@
     }
     [self.window makeKeyAndVisible];
     self.window.backgroundColor = [UIColor whiteColor];
+    [PayPalMobile initializeWithClientIdsForEnvironments:@{PayPalEnvironmentProduction : @"你的真实交易模式ClientID",PayPalEnvironmentSandbox :@"Adunke_dF5dQUpfyqfkk1jVmIy0GKMtXG40aS1Ciws5dZxmqBQHU3M22RW8tE6JMwFSdKhDl5VuonnIC"}];
+    [PayPalMobile preconnectWithEnvironment:PayPalEnvironmentSandbox];
     return YES;
 }
 

@@ -9,11 +9,14 @@
 #import "WalletViewController.h"
 #import "UICountingLabel.h"
 #import "InternetEngine.h"
-@interface WalletViewController ()
+#import "RechargeViewController.h"
+#import <PayPalMobile.h>
+@interface WalletViewController ()<PayPalPaymentDelegate>
 @property (weak, nonatomic) IBOutlet UICountingLabel *balanceLabel;
 @property (weak, nonatomic) IBOutlet UIButton *balanceButton;
 @property (weak, nonatomic) IBOutlet UILabel *depositLabel;
 @property (weak, nonatomic) IBOutlet UIButton *depositButton;
+@property(nonatomic, strong) PayPalConfiguration *payPalConfig;
 
 @end
 
@@ -57,6 +60,57 @@
 
 - (void)viewDidAppear:(BOOL)animated{
     [self getMyMoney];
+}
+- (IBAction)recharge:(id)sender {
+//    [self initConfiguration];
+    RechargeViewController * rvc = [[RechargeViewController alloc]init];
+    [self.navigationController pushViewController:rvc animated:YES];
+}
+
+- (void)initConfiguration{
+    //是否接受信用卡
+    _payPalConfig.acceptCreditCards = YES;
+    //商家名称
+    _payPalConfig.merchantName = @"天津市云单车科技发展有限公司";
+    //商家隐私协议网址和用户授权网址-说实话这个没用到
+    _payPalConfig.merchantPrivacyPolicyURL = [NSURL URLWithString:@"https://www.paypal.com/webapps/mpp/ua/privacy-full"];
+    _payPalConfig.merchantUserAgreementURL = [NSURL URLWithString:@"https://www.paypal.com/webapps/mpp/ua/useragreement-full"];
+    //paypal账号下的地址信息
+    _payPalConfig.payPalShippingAddressOption = PayPalShippingAddressOptionPayPal;
+    //配置语言环境
+    _payPalConfig.languageOrLocale = [NSLocale preferredLanguages][0];
+    
+    
+    PayPalPayment *payment = [[PayPalPayment alloc] init];
+    //订单总额
+    payment.amount = [NSDecimalNumber decimalNumberWithString:@"1"];
+    //货币类型-RMB是没用的
+    payment.currencyCode = @"USD";
+    //订单描述
+    payment.shortDescription = @"账户充值";
+    //生成的订单号
+    payment.custom = @"1234567890";
+    //生成paypal控制器，并模态出来(push也行)
+    //将之前生成的订单信息和paypal配置传进来，并设置订单VC为代理
+    PayPalPaymentViewController *paymentViewController = [[PayPalPaymentViewController alloc] initWithPayment:payment configuration:self.payPalConfig delegate:self];
+    //模态展示
+    [self presentViewController:paymentViewController animated:YES completion:^{
+        
+    }];
+    
+}
+- (void)payPalPaymentDidCancel:(PayPalPaymentViewController *)paymentViewController{
+    NSLog(@"点击取消按钮");
+    [self dismissViewControllerAnimated:YES completion:^{
+        
+    }];
+}
+
+- (void)payPalPaymentViewController:(PayPalPaymentViewController *)paymentViewController didCompletePayment:(PayPalPayment *)completedPayment{
+    NSLog(@"支付完成");
+    [self dismissViewControllerAnimated:YES completion:^{
+        [self initStringHudWith:@"支付成功"];
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

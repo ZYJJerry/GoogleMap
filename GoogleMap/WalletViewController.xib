@@ -59,6 +59,9 @@
                     <state key="normal" title="充值余额">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="recharge:" destination="-1" eventType="touchUpInside" id="ir7-hm-qWY"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mut-dd-yc3">
                     <rect key="frame" x="20" y="603" width="335" height="44"/>
